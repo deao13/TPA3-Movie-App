@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="/assets/script.js"></script>
+  <title>TMDB</title>
+</head>
+<body>
+  <header class="p-3 text-bg-light">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <a href="/" id="header-title" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          Skil Movie
+        </a>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input id="search" type="search" class="form-control form-control text-bg-light" placeholder="Search..." aria-label="Search" onkeyup="searchMovie()">
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <section class="container mt-5 p-10">
+    <div class="row" id="content">
+      
+    </div>
+   
+  </section>
+</body>
+</html>

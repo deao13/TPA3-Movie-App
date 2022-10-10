@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header-title {
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+.content-card{
+  margin-bottom: 60px;
+}
